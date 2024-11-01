@@ -1,0 +1,33 @@
+.todoItem{
+  padding: 20px;
+  color: black;
+  background-color:white;
+  margin: 0 auto;
+  box-shadow: 5px 0px 0px pink;
+  width: 500px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.delete{
+  float: right;
+  border: none;
+  border-radius: 4px;
+  background-color: gray;
+  padding: 12px 20px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s color,0.5s background-color;
+  margin-top: -10px;
+}
+
+.delete:hover{
+  color: white;
+  border: 0px solid pink;
+  background-color: pink;
+}
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
